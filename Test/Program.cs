@@ -59,7 +59,7 @@ namespace Test
             Console.WriteLine("It works!");
 
             Console.WriteLine("It worked with git hub?");
-            //Did it tho?
+            //Did it tho? To make a change with github I just have to go to changes and make the change with sync.
             Console.ReadLine();
         }
         
