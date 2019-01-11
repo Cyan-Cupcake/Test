@@ -17,6 +17,10 @@ namespace Test
             Console.Write("Random non-whole number: ");
             double num3 = Convert.ToDouble(Console.ReadLine()); // input to any number (whole or not whole)
 
+            Console.Write("Pick an array value: ");
+            int x = Convert.ToInt32(Console.ReadLine());
+            
+
             Console.Clear(); //Clears everything on the console. duhhhh
             Console.WriteLine("Your name is " + input);
             Console.WriteLine("Your dick size is: " + Dsize + " Inche(s)");
@@ -29,7 +33,8 @@ namespace Test
                 Console.Clear();
                 Console.WriteLine("TINY DICC");
             }
-
+            double[] stuff = { 1, 6.9, 52, 69, 80085 }; // Array structure starts with a data type(string, bool, int, etc....) with [] afterwards then the variable name followed by the data in the array.
+            Console.WriteLine(stuff[x]);
             Console.ReadLine(); //Adds a wait function that need a key press to continue.
 
             string F = "fuckoff"; // String will store text.
@@ -61,7 +66,7 @@ namespace Test
             Console.WriteLine("It worked with git hub?");
             //Did it tho? To make a change with github I just have to go to changes and make the change with sync.
             //Then to load the github you can just sync or if with a new computer/new project you have to clone it from github first.
-            //making a thing. ajsdflkjasld
+            //making a thing. 
             Console.ReadLine();
         }
         
