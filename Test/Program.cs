@@ -61,7 +61,7 @@ namespace Test
             Console.WriteLine("It worked with git hub?");
             //Did it tho? To make a change with github I just have to go to changes and make the change with sync.
             //Then to load the github you can just sync or if with a new computer/new project you have to clone it from github first.
-            //making a thing. testing the hotkey
+            //making a thing. 
             Console.ReadLine();
         }
         
